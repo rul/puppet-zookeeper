@@ -129,7 +129,6 @@ class zookeeper(
 
     user { $user:
       ensure  => $ensure_account,
-      home    => $datastore,
       comment => 'Zookeeper',
       gid     => $group,
       shell   => $shell,
