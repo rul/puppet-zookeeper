@@ -80,6 +80,8 @@ class zookeeper(
   $tracefile_threshold     = $::zookeeper::params::tracefile_threshold,
   $console_threshold       = $::zookeeper::params::console_threshold,
   # sasl options
+  $sasl_krb5               = $::zookeeper::params::sasl_krb5,
+  $sasl_users              = $::zookeeper::params::sasl_users,
   $keytab_path             = $::zookeeper::params::keytab_path,
   $principal               = $::zookeeper::params::principal,
   $realm                   = $::zookeeper::params::realm,
